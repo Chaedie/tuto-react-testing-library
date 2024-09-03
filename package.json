@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "coverage": "yarn test --coverage"
   },
   "eslintConfig": {
     "extends": [
@@ -48,5 +49,8 @@
     "globals": "^15.9.0",
     "prettier": "3.3.3",
     "typescript-eslint": "^8.4.0"
+  },
+  "Jest": {
+
   }
 }
