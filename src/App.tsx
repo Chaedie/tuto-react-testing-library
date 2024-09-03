@@ -14,7 +14,8 @@ function App() {
           Learn React
         </a>
 
-        <div>안녕하세요</div>
+        <div className="flex justify-center">안녕하세요</div>
+        
       </header>
     </div>
   );
