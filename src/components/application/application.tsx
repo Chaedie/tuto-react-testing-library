@@ -26,7 +26,7 @@ export default function Application(props: ApplicationProps) {
           </select>
         </div>
         <div>
-          <label htmlFor="">
+          <label>
             <input type="checkbox" id="terms" /> I agree to the terms and conditions
           </label>
         </div>
