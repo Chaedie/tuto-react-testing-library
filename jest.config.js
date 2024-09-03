@@ -9,6 +9,14 @@ const config = {
     "!src/reportWebVitals.ts", // Exclude the reportWebVitals file
     "!src/**/*.d.ts", // Exclude TypeScript declaration files
   ],
+  coverageThreshold: {
+    global: {
+      branches: 50,
+      functions: 50,
+      lines: 50,
+      statements: 50,
+    },
+  },
 };
 
 module.exports = config;
